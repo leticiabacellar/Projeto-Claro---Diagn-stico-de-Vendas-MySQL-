@@ -119,10 +119,10 @@ Entendimento de métricas de marketing e vendas
 
 ### 🚀 Próximos passos
 
-Conectar o banco ao Power BI para criar dashboards.
+1. Conectar o banco ao Power BI para criar dashboards.
 
-Expandir as análises incluindo ano de 2023+.
+2. Expandir as análises incluindo ano de 2023+.
 
-Criar stored procedures para automatizar relatórios.
+3. Criar stored procedures para automatizar relatórios.
 
-Implementar validações de dados e tabelas auxiliares.
+4. Implementar validações de dados e tabelas auxiliares.
