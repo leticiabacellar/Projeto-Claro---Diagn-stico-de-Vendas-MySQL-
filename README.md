@@ -57,6 +57,74 @@ Eles compõem um histórico que permite avaliar evolução, quedas, picos de int
 
 --- 
 
+
+### 📊 Consultas Analíticas Disponíveis
+
+O projeto fornece três análises principais:
+
+## 1️⃣ Tendência de Vendas ao Longo do Tempo
+
+Mostra a evolução das vendas mês a mês.
+
+
+```sql
+SELECT 
+    ano, mes, SUM(vendas) AS vendas_totais
+FROM 
+    Realizado
+GROUP BY 
+    ano, mes
+ORDER BY 
+    ano, mes;
+
+```
+
+
+## 2️⃣ Relação Entre Cliques, Engajamento e Vendas
+
+Compara os três principais indicadores do funil digital.
+
+```sql
+SELECT 
+    ano, mes, 
+    SUM(cliques_whatsapp) AS total_cliques,
+    SUM(engajados) AS total_engajados,
+    SUM(vendas) AS total_vendas
+FROM 
+    Realizado
+GROUP BY 
+    ano, mes
+ORDER BY 
+    ano, mes;
+
+```
+
+## 3️⃣ Taxas de Conversão
+
+Calcula:
+
+Conversão de cliques → vendas
+
+Conversão de engajados → vendas
+
+```sql
+SELECT 
+    ano, mes,
+    SUM(vendas) AS total_vendas,
+    SUM(cliques_whatsapp) AS total_cliques,
+    ROUND((SUM(vendas) / SUM(cliques_whatsapp)) * 100, 2) AS taxa_conversao_cliques,
+    SUM(engajados) AS total_engajados,
+    ROUND((SUM(vendas) / SUM(engajados)) * 100, 2) AS taxa_conversao_engajados
+FROM 
+    Realizado
+GROUP BY 
+    ano, mes
+ORDER BY 
+    ano, mes;
+
+```
+
+
 ### 💾 Principais Inserções de Dados
 
 Foram inseridos dados de:
