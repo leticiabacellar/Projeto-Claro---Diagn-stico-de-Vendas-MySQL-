@@ -41,6 +41,8 @@ Tabela: Realizado
 
 
 A granularidade dos dados é mensal, possibilitando uma análise temporal detalhada.
+
+
 ---
 
 ### 💾 Principais Inserções de Dados
