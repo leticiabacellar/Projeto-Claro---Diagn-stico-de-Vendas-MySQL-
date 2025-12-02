@@ -45,6 +45,17 @@ A granularidade dos dados é mensal, possibilitando uma análise temporal detalh
 
 ---
 
+### 📥 Inserção dos Dados
+
+O projeto inclui dados hipotéticos dos anos:
+
+- 2020
+- 2021
+- 2022
+
+Eles compõem um histórico que permite avaliar evolução, quedas, picos de interação e impacto nas vendas.
+
+
 ### 💾 Principais Inserções de Dados
 
 Foram inseridos dados de:
