@@ -4,6 +4,8 @@ Este projeto tem como objetivo analisar o desempenho comercial de um negócio ao
 
 A análise foi construída para identificar tendências, comparar comportamentos entre anos, medir taxas de conversão e fornecer insights estratégicos para a tomada de decisão.
 
+---
+
 ### 📊 Objetivo do Projeto
 
 1. Criar um banco de dados relacional simples e funcional para registrar métricas mensais de performance.
@@ -23,6 +25,7 @@ Construir consultas SQL profissionais que poderiam ser usadas em análises de BI
 ---
 
 ### 🧱 Estrutura do Banco de Dados
+
 Banco: Proejto Claro
 Tabela Principal: Realizado
 
@@ -37,6 +40,8 @@ engajados	INT	Usuários engajados
 vendas	INT	Vendas realizadas
 
 O banco utiliza dados mensais de 2020 a 2022, permitindo uma análise evolutiva.
+
+---
 
 ### 💾 Principais Inserções de Dados
 
