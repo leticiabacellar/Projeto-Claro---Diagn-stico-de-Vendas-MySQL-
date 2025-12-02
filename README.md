@@ -175,7 +175,7 @@ O projeto foi criado para:
 
 ## 🚀 Possíveis Extensões
 
-1- Integração com Power BI, Looker Studio ou Metabase
+1. Integração com Power BI, Looker Studio ou Metabase
 
 2. Criação de gráficos e dashboards
 
