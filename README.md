@@ -27,6 +27,7 @@ Construir consultas SQL profissionais que poderiam ser usadas em análises de BI
 ### 🧱 Estrutura do Banco de Dados
 
 Banco: Proejto Claro
+
 Tabela Principal: Realizado
 
 Campos armazenados:
