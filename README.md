@@ -55,6 +55,7 @@ O projeto inclui dados hipotéticos dos anos:
 
 Eles compõem um histórico que permite avaliar evolução, quedas, picos de interação e impacto nas vendas.
 
+--- 
 
 ### 💾 Principais Inserções de Dados
 
