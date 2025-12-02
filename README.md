@@ -1,10 +1,10 @@
-🧠 Projeto SQL – Diagnóstico de Vendas (MySQL)
+### 🧠 Projeto SQL – Diagnóstico de Vendas (MySQL)
 
 Este projeto tem como objetivo analisar o desempenho comercial de um negócio ao longo dos anos, utilizando um banco de dados criado no MySQL para armazenar, consultar e diagnosticar métricas essenciais relacionadas a cliques no WhatsApp, engajamento e vendas realizadas.
 
 A análise foi construída para identificar tendências, comparar comportamentos entre anos, medir taxas de conversão e fornecer insights estratégicos para a tomada de decisão.
 
-📊 Objetivo do Projeto
+### 📊 Objetivo do Projeto
 
 Criar um banco de dados relacional simples e funcional para registrar métricas mensais de performance.
 
@@ -20,8 +20,8 @@ Qual é a taxa de conversão por mês e por ano?
 
 Construir consultas SQL profissionais que poderiam ser usadas em análises de BI ou automações de relatórios.
 
-🧱 Estrutura do Banco de Dados
-Banco: diagnostico_vendas
+### 🧱 Estrutura do Banco de Dados
+Banco: Proejto Claro
 Tabela Principal: Realizado
 
 Campos armazenados:
@@ -36,7 +36,7 @@ vendas	INT	Vendas realizadas
 
 O banco utiliza dados mensais de 2020 a 2022, permitindo uma análise evolutiva.
 
-💾 Principais Inserções de Dados
+### 💾 Principais Inserções de Dados
 
 Foram inseridos dados de:
 
@@ -48,7 +48,7 @@ Janeiro e fevereiro de 2022
 
 Essas informações possibilitam entender o comportamento em períodos críticos e sazonais.
 
-🔍 Consultas e Métricas Criadas
+### 🔍 Consultas e Métricas Criadas
 1️⃣ Tendência de vendas ao longo dos anos
 
 Consulta que consolida e ordena as vendas por ano e mês, permitindo visualizar evolução:
@@ -90,7 +90,7 @@ ORDER BY ano, mes;
 
 Essa consulta é especialmente útil para diagnóstico de eficiência do canal de vendas.
 
-🔎 O que este projeto demonstra
+### 🔎 O que este projeto demonstra
 
 Habilidade prática em DDL (criação de banco e tabela)
 
@@ -104,7 +104,7 @@ Capacidade de transformar dados brutos em informações acionáveis
 
 Entendimento de métricas de marketing e vendas
 
-🚀 Próximos passos
+### 🚀 Próximos passos
 
 Conectar o banco ao Power BI para criar dashboards.
 
