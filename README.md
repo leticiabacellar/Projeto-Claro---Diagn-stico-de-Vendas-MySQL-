@@ -26,22 +26,21 @@ Construir consultas SQL profissionais que poderiam ser usadas em análises de BI
 
 ### 🧱 Estrutura do Banco de Dados
 
-Banco: Proejto Claro
+O banco Projeto Claro contém a tabela Realizado, responsável por armazenar todas as informações históricas.
 
-Tabela Principal: Realizado
+Tabela: Realizado
 
-Campos armazenados:
+| Coluna             | Tipo           | Descrição                               |
+|--------------------|----------------|-------------------------------------------|
+| id                 | INT (PK, AI)   | Identificador único do registro           |
+| ano                | INT            | Ano da medição                            |
+| mes                | VARCHAR(10)    | Mês/Ano (ex.: jan/20)                     |
+| cliques_whatsapp   | INT            | Quantidade de cliques no WhatsApp         |
+| engajados          | INT            | Usuários que interagiram ativamente       |
+| vendas             | INT            | Total de vendas no período                |
 
-Campo	Tipo	Descrição
-id	INT PK AI	Identificador único
-ano	INT	Ano da operação
-mes	VARCHAR	Mês/ano
-cliques_whatsapp	INT	Cliques recebidos no canal
-engajados	INT	Usuários engajados
-vendas	INT	Vendas realizadas
 
-O banco utiliza dados mensais de 2020 a 2022, permitindo uma análise evolutiva.
-
+A granularidade dos dados é mensal, possibilitando uma análise temporal detalhada.
 ---
 
 ### 💾 Principais Inserções de Dados
