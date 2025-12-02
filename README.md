@@ -124,62 +124,36 @@ ORDER BY
 
 ```
 
+--- 
+
 
 ### 💾 Principais Inserções de Dados
 
-Foram inseridos dados de:
+- Foram inseridos dados de:
 
-Março a novembro de 2020
+- Março a novembro de 2020
 
-Janeiro a dezembro de 2021
+- Janeiro a dezembro de 2021
 
-Janeiro e fevereiro de 2022
+- Janeiro e fevereiro de 2022
 
 Essas informações possibilitam entender o comportamento em períodos críticos e sazonais.
 
 ---
 
-### 🔍 Consultas e Métricas Criadas
-1️⃣ Tendência de vendas ao longo dos anos
+## 🎯 Objetivo Geral
 
-Consulta que consolida e ordena as vendas por ano e mês, permitindo visualizar evolução:
+O projeto foi criado para:
 
-SELECT 
-    ano, mes, SUM(vendas) AS vendas_totais
-FROM Realizado
-GROUP BY ano, mes
-ORDER BY ano, mes;
+- Facilitar análises de performance comercial
 
-2️⃣ Relação entre cliques, engajamento e vendas
+- Identificar padrões e tendências ao longo dos anos
 
-Consulta para analisar correlação entre as métricas:
+- Medir eficiência do funil digital
 
-SELECT 
-    ano, mes, 
-    SUM(cliques_whatsapp) AS total_cliques,
-    SUM(engajados) AS total_engajados,
-    SUM(vendas) AS total_vendas
-FROM Realizado
-GROUP BY ano, mes
-ORDER BY ano, mes;
+- Estudar SQL, métricas e inteligência comercial
 
-3️⃣ Cálculo de taxa de conversão
-
-Mede o quão eficiente foi o funil entre cliques → engajados → vendas:
-
-SELECT 
-    ano, mes,
-    SUM(vendas) AS total_vendas,
-    SUM(cliques_whatsapp) AS total_cliques,
-    ROUND((SUM(vendas) / SUM(cliques_whatsapp)) * 100, 2) AS taxa_conversao_cliques,
-    SUM(engajados) AS total_engajados,
-    ROUND((SUM(vendas) / SUM(engajados)) * 100, 2) AS taxa_conversao_engajados
-FROM Realizado
-GROUP BY ano, mes
-ORDER BY ano, mes;
-
-
-Essa consulta é especialmente útil para diagnóstico de eficiência do canal de vendas.
+- Servir como base para dashboards, modelos preditivos e relatórios analíticos
 
 ---
 
@@ -199,12 +173,20 @@ Essa consulta é especialmente útil para diagnóstico de eficiência do canal d
 
 ---
 
+## 🚀 Possíveis Extensões
+
+1- Integração com Power BI, Looker Studio ou Metabase
+
+2. Criação de gráficos e dashboards
+
+3. Expansão do modelo de dados
+
+4. Rotinas automáticas de coleta e atualização
+
+---
+
 ### 🚀 Próximos passos
 
 1. Conectar o banco ao Power BI para criar dashboards.
 
 2. Expandir as análises incluindo ano de 2023+.
-
-3. Criar stored procedures para automatizar relatórios.
-
-4. Implementar validações de dados e tabelas auxiliares.
