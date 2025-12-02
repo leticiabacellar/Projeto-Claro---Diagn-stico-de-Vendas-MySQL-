@@ -55,6 +55,8 @@ Janeiro e fevereiro de 2022
 
 Essas informações possibilitam entender o comportamento em períodos críticos e sazonais.
 
+---
+
 ### 🔍 Consultas e Métricas Criadas
 1️⃣ Tendência de vendas ao longo dos anos
 
@@ -97,6 +99,8 @@ ORDER BY ano, mes;
 
 Essa consulta é especialmente útil para diagnóstico de eficiência do canal de vendas.
 
+---
+
 ### 🔎 O que este projeto demonstra
 
 Habilidade prática em DDL (criação de banco e tabela)
@@ -110,6 +114,8 @@ Organização, limpeza e padronização de dados
 Capacidade de transformar dados brutos em informações acionáveis
 
 Entendimento de métricas de marketing e vendas
+
+---
 
 ### 🚀 Próximos passos
 
