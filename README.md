@@ -103,17 +103,17 @@ Essa consulta é especialmente útil para diagnóstico de eficiência do canal d
 
 ### 🔎 O que este projeto demonstra
 
-Habilidade prática em DDL (criação de banco e tabela)
+- Habilidade prática em DDL (criação de banco e tabela)
 
-Manipulação de dados com DML
+- Manipulação de dados com DML
 
-Construção de consultas analíticas
+- Construção de consultas analíticas
 
-Organização, limpeza e padronização de dados
+- Organização, limpeza e padronização de dados
 
-Capacidade de transformar dados brutos em informações acionáveis
+- Capacidade de transformar dados brutos em informações acionáveis
 
-Entendimento de métricas de marketing e vendas
+- Entendimento de métricas de marketing e vendas
 
 ---
 
