@@ -26,7 +26,7 @@ Construir consultas SQL profissionais que poderiam ser usadas em análises de BI
 
 ### 🧱 Estrutura do Banco de Dados
 
-O banco Projeto Claro contém a tabela Realizado, responsável por armazenar todas as informações históricas.
+O banco diagnostico_vendas contém a tabela Realizado, responsável por armazenar todas as informações históricas.
 
 Tabela: Realizado
 
