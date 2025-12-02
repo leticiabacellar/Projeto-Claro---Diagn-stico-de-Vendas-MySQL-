@@ -6,17 +6,17 @@ A análise foi construída para identificar tendências, comparar comportamentos
 
 ### 📊 Objetivo do Projeto
 
-Criar um banco de dados relacional simples e funcional para registrar métricas mensais de performance.
+1. Criar um banco de dados relacional simples e funcional para registrar métricas mensais de performance.
 
-Armazenar dados reais de 2020 a 2022.
+2. Armazenar dados reais de 2020 a 2022.
 
 Realizar análises SQL que respondem perguntas-chave de negócio, como:
 
-As vendas estão crescendo ao longo do tempo?
+- As vendas estão crescendo ao longo do tempo?
 
-Existe correlação entre cliques, engajamento e vendas?
+- Existe correlação entre cliques, engajamento e vendas?
 
-Qual é a taxa de conversão por mês e por ano?
+- Qual é a taxa de conversão por mês e por ano?
 
 Construir consultas SQL profissionais que poderiam ser usadas em análises de BI ou automações de relatórios.
 
