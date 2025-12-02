@@ -20,6 +20,8 @@ Realizar análises SQL que respondem perguntas-chave de negócio, como:
 
 Construir consultas SQL profissionais que poderiam ser usadas em análises de BI ou automações de relatórios.
 
+---
+
 ### 🧱 Estrutura do Banco de Dados
 Banco: Proejto Claro
 Tabela Principal: Realizado
